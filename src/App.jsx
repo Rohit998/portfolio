@@ -30,6 +30,7 @@ function Portfolio() {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Research', href: '#research' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -163,8 +164,110 @@ function Portfolio() {
         </div>
       </section>
 
+      {/* Research Papers Section */}
+      <section id="research" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-100 dark:bg-gray-800">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold mb-12 text-center">Research Papers</h2>
+          <div className="space-y-6">
+            {/* Research Paper 1 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className={`p-6 rounded-lg ${darkMode ? 'bg-gray-900' : 'bg-white'} border ${darkMode ? 'border-gray-700' : 'border-gray-200'} hover:shadow-lg transition-shadow`}
+            >
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold mb-2">Paper Title Goes Here</h3>
+                  <p className="text-gray-600 dark:text-gray-400 mb-3">
+                    <span className="font-semibold">Authors:</span> Author 1, Author 2, <span className="font-semibold">Rohit Reddy</span>, Author 3
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 mb-3">
+                    <span className="font-semibold">Published in:</span> Conference/Journal Name
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 mb-4">
+                    <span className="font-semibold">Year:</span> 2024
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 mb-4">
+                    Brief description of the research paper and its contributions...
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-sm"
+                    >
+                      <FileText size={16} className="mr-2" />
+                      PDF
+                    </a>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-sm"
+                    >
+                      <ExternalLink size={16} className="mr-2" />
+                      DOI/ArXiv
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Research Paper 2 - Example */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className={`p-6 rounded-lg ${darkMode ? 'bg-gray-900' : 'bg-white'} border ${darkMode ? 'border-gray-700' : 'border-gray-200'} hover:shadow-lg transition-shadow`}
+            >
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold mb-2">Another Research Paper Title</h3>
+                  <p className="text-gray-600 dark:text-gray-400 mb-3">
+                    <span className="font-semibold">Authors:</span> <span className="font-semibold">Rohit Reddy</span>, Author 2, Author 3
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 mb-3">
+                    <span className="font-semibold">Published in:</span> Journal Name
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 mb-4">
+                    <span className="font-semibold">Year:</span> 2023
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 mb-4">
+                    Brief description of the research paper and its contributions...
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-sm"
+                    >
+                      <FileText size={16} className="mr-2" />
+                      PDF
+                    </a>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-sm"
+                    >
+                      <ExternalLink size={16} className="mr-2" />
+                      DOI/ArXiv
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-100 dark:bg-gray-800">
+      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8">Get In Touch</h2>
           <p className="text-lg mb-8 text-gray-600 dark:text-gray-400">
