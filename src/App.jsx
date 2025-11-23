@@ -229,22 +229,60 @@ function Portfolio() {
             >
               <div className="flex items-start justify-between">
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-2">Another Research Paper Title</h3>
+                  <h3 className="text-xl font-bold mb-2">Barriers to AI Tool Adoption for Non-Technical Educators in the Digital Age</h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-3">
-                    <span className="font-semibold">Authors:</span> <span className="font-semibold">Rohit Reddy</span>, Author 2, Author 3
+                    <span className="font-semibold">Authors:</span> <span className="font-semibold">Rohit Reddy</span>
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 mb-3">
-                    <span className="font-semibold">Published in:</span> Journal Name
+                    <span className="font-semibold">Published in:</span> Journal of Scientific and Engineering Research
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 mb-4">
+                    <span className="font-semibold">Year:</span> 2024
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 mb-4">
+                    This paper explores the barriers to AI tool adoption for non-technical educators in the digital age. It identifies common challenges and provides recommendations for overcoming them.
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <a
+                      href="https://doi.org/10.5281/zenodo.13919017"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-sm"
+                    >
+                      <ExternalLink size={16} className="mr-2" />
+                      DOI
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Research Paper 3 */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className={`p-6 rounded-lg ${darkMode ? 'bg-gray-900' : 'bg-white'} border ${darkMode ? 'border-gray-700' : 'border-gray-200'} hover:shadow-lg transition-shadow`}
+            >
+              <div className="flex items-start justify-between">
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold mb-2">Enhancing Data Security in Higher Education Administration: Strategies for Protecting Student Information and Institutional Integrity in Cloud-Based Systems</h3>
+                  <p className="text-gray-600 dark:text-gray-400 mb-3">
+                    <span className="font-semibold">Authors:</span> Author 1, Author 2, <span className="font-semibold">Rohit Reddy</span>, Author 3
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 mb-3">
+                    <span className="font-semibold">Published in:</span> Journal of Artificial Intelligence & Cloud Computing
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">
                     <span className="font-semibold">Year:</span> 2023
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">
-                    Brief description of the research paper and its contributions...
+                    This paper investigates the security challenges in higher education administration and proposes strategies to protect student information and institutional integrity in cloud-based systems.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <a
-                      href="#"
+                      href="https://doi.org/10.47363/JAICC/2023(2)E150"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-sm"
