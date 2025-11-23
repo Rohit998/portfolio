@@ -115,10 +115,10 @@ function Portfolio() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-400"
           >
-            Full Stack Developer
+            Data Programmer/Analysts/Engineer/AI Developer/Full Stack Developer
           </motion.p>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 20 }}s
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex justify-center space-x-4"
@@ -191,37 +191,28 @@ function Portfolio() {
             >
               <div className="flex items-start justify-between">
                 <div className="flex-1">
-                  <h3 className="text-xl font-bold mb-2">Paper Title Goes Here</h3>
+                  <h3 className="text-xl font-bold mb-2">Privacy-Preserving AI Database Systems in Education Analytics</h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-3">
-                    <span className="font-semibold">Authors:</span> Author 1, Author 2, <span className="font-semibold">Rohit Reddy</span>, Author 3
+                    <span className="font-semibold">Authors:</span><span className="font-semibold">Rohit Reddy</span>
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 mb-3">
-                    <span className="font-semibold">Published in:</span> Conference/Journal Name
+                    <span className="font-semibold">Published in:</span> International Journal of Multidisciplinary Research and Growth Evaluation
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">
                     <span className="font-semibold">Year:</span> 2024
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">
-                    Brief description of the research paper and its contributions...
+                    This paper presents a privacy-preserving framework for AI-based education analytics. It leverages differential privacy to protect sensitive student data while enabling effective analysis.
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <a
-                      href="#"
+                      href="https://doi.org/10.54660/.IJMRGE.2024.5.6.1626-1629"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-sm"
                     >
-                      <FileText size={16} className="mr-2" />
-                      PDF
-                    </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-sm"
-                    >
                       <ExternalLink size={16} className="mr-2" />
-                      DOI/ArXiv
+                      DOI
                     </a>
                   </div>
                 </div>
@@ -258,17 +249,8 @@ function Portfolio() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-sm"
                     >
-                      <FileText size={16} className="mr-2" />
-                      PDF
-                    </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors text-sm"
-                    >
                       <ExternalLink size={16} className="mr-2" />
-                      DOI/ArXiv
+                      DOI
                     </a>
                   </div>
                 </div>
@@ -286,7 +268,7 @@ function Portfolio() {
             Feel free to reach out if you'd like to work together!
           </p>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:cprohit1998@gmail.com"
             className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
           >
             <Mail size={20} className="mr-2" />
