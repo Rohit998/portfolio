@@ -179,6 +179,13 @@ function Portfolio() {
                 View Project <ExternalLink size={16} className="ml-2" />
               </a>
             </div>
+            <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-gray-100'} hover:shadow-lg transition-shadow`}>
+              <h3 className="text-2xl font-bold mb-4">Line Follower Robo</h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-4">This is a line follower robo code where robo used to follow black path by using 5 array sensor, it is an IOT project we have used PID algorithm for this project. Accurate PID values have been given to this code, where judgement of turn is accurate.</p>
+              <a href="https://github.com/Rohit998/line-follower-robo-" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline flex items-center">
+                View Project <ExternalLink size={16} className="ml-2" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -276,7 +283,7 @@ function Portfolio() {
                 <div className="flex-1">
                   <h3 className="text-xl font-bold mb-2">Enhancing Data Security in Higher Education Administration: Strategies for Protecting Student Information and Institutional Integrity in Cloud-Based Systems</h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-3">
-                    <span className="font-semibold">Authors:</span> Author 1, Author 2, <span className="font-semibold">Rohit Reddy</span>, Author 3
+                    <span className="font-semibold">Authors:</span>  <span className="font-semibold">Rohit Reddy</span>
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 mb-3">
                     <span className="font-semibold">Published in:</span> Journal of Artificial Intelligence & Cloud Computing
