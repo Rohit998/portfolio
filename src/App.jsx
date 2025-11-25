@@ -151,10 +151,10 @@ function Portfolio() {
 
       {/* About Section */}
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-100 dark:bg-gray-800">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
-          <p className="text-lg text-center max-w-3xl mx-auto text-gray-600 dark:text-gray-400">
-            Add your about section content here. Describe your skills, experience, and passion for development.
+          <p className="text-lg text-justify max-w-full text-gray-600 dark:text-gray-400 leading-relaxed">
+          I am Rohit Reddy, a Data Programmer and AI Innovator with a strong foundation in analytics, automation, and intelligent systems. At the UMKC School of Medicine, I drove major digital transformation efforts—building accreditation dashboards, curriculum analytics tools, automated data pipelines, and Power Platform applications that streamlined compliance and improved decision-making. In Amazon as a Software Development Engineer, I have expanded skills to develop scalable full-stack applications that automate complex validation workflows, significantly reducing manual work and improving data quality. I focus on user-centric design, security, and AI-driven solutions that make organizations smarter, more efficient, and future-ready.
           </p>
         </div>
       </section>
@@ -166,9 +166,16 @@ function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project cards will go here */}
             <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-gray-100'} hover:shadow-lg transition-shadow`}>
-              <h3 className="text-2xl font-bold mb-4">Project 1</h3>
-              <p className="text-gray-600 dark:text-gray-400 mb-4">Project description goes here.</p>
-              <a href="#" className="text-blue-500 hover:underline flex items-center">
+              <h3 className="text-2xl font-bold mb-4">DesiVerse</h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-4">DesiVerse is an AI-powered platform designed to simplify immigration, career, and daily life challenges for the Desi community.</p>
+              <a href="https://desiverse-psi.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline flex items-center">
+                View Project <ExternalLink size={16} className="ml-2" />
+              </a>
+            </div>
+            <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-gray-100'} hover:shadow-lg transition-shadow`}>
+              <h3 className="text-2xl font-bold mb-4">AI Semantic Mapper</h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-4">A semantic sentence matching application that uses fine-tuned sentence transformers to compare and match sentences between two sets. This project includes a Streamlit web interface for interactive sentence-to-sentence comparison and tools for training, testing, and comparing models.</p>
+              <a href="https://semanticmapper-qwuew2th5wbzlszhpq8kwy.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline flex items-center">
                 View Project <ExternalLink size={16} className="ml-2" />
               </a>
             </div>
@@ -318,7 +325,7 @@ function Portfolio() {
       {/* Footer */}
       <footer className={`py-8 text-center border-t ${darkMode ? 'border-gray-800' : 'border-gray-200'}`}>
         <p className="text-gray-600 dark:text-gray-400">
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Rohit Reddy. All rights reserved.
         </p>
       </footer>
     </div>
